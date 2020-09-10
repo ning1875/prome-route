@@ -1,0 +1,15 @@
+[Unit]
+Description=prome-route
+Documentation=http://www.confd.io/
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/prome-route --config.file=/etc/prome-route/prome-route.yml
+Restart=always
+StandardOutput=syslog
+StandardError=syslog
+SyslogIdentifier=prome-route
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,11 @@
+replace_label_name: cluster # 特征标签，即grafana查询时用来区分不同shard的label name
+                            # 比如特征标签为cluster ：node_memory_MemFree_bytes{cluster="a",node=~".+"}
+                            # 代表查询分片a上的node_memory_MemFree_bytes数据
+prome_servers:
+
+  a: 1.1.1.1:9090 # 各个分片采集器的value及其地址
+  b: 2.2.2.2:9090
+
+
+http:
+  listen_addr:   :9097
