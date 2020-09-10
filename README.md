@@ -2,7 +2,7 @@
 项目地址: [https://github.com/ning1875/prome-route](https://github.com/ning1875/prome-route)
 PS: 这是一个仅用时半天就写完的项目
 架构图 
-![image](https://github.com/ning1875/prome-route/blob/master/images/prome-route.png)
+![image](https://github.com/ning1875/prome-route/blob/master/images/prome-route.jpg)
 # prometheus HA
 **prometheus本地tsdb性能出色，但是碍于其没有集群版本导致**
 ## 实现手段
